@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<style>
+.row {
+    font-family: 'Bree Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.foto {
+    width: 300px;
+    height: 350px;
+    padding: 50px;
+    margin-left: 450px;
+}
+.colFIFA {
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.exp_fifa {
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    text-align: center;
+}
+.video_fifa {
+    margin-left: 400px;
+}
+@media (max-width: 600px) {
+  .foto {
+    width: 50%;
+    margin-left: 20%;
+  }
+  
+  .colFIFA {
+    display: block;
+  }
+  
+  .exp_fifa {
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .video_fifa {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(100% - 40px);
+  }
+}
+</style>
+<body>
+<div class="row">  
+    <div class="colFIFA">
+            <img class="foto" src="img/portada_UFC.jpg">
+    </div>
+    <div>
+            <h1 class="exp_fifa">
+                El videojuego de la UFC (Ultimate Fighting Championship) es una serie de videojuegos de simulación de deportes de combate desarrollada por EA Sports. Los juegos presentan una jugabilidad realista que intenta capturar la emoción y la intensidad de las peleas de MMA.
+
+                En el juego, los jugadores pueden seleccionar a uno de los muchos luchadores reales de la UFC y personalizar su apariencia, habilidades y estadísticas. Los jugadores también pueden crear su propio luchador personalizado y llevarlo a través de una carrera en el modo carrera, donde pueden entrenar y mejorar su personaje, y competir en peleas en eventos de la UFC.
+                
+                El juego presenta una variedad de modos de juego, incluyendo partidas individuales, torneos, ligas y multijugador en línea. Los jugadores pueden luchar en diferentes categorías de peso, desde peso mosca hasta peso pesado, y usar una amplia variedad de técnicas y movimientos de MMA, como golpes, patadas, agarres, derribos y sumisiones.
+                
+                El juego también presenta un sistema de daño en tiempo real que afecta la apariencia y la capacidad de lucha de los luchadores a medida que reciben golpes y lesiones durante las peleas.
+                
+                En resumen, el videojuego de la UFC es una serie de videojuegos de simulación de deportes de combate que presenta la emoción y la intensidad de las peleas de MMA. Los jugadores pueden seleccionar a uno de los muchos luchadores reales de la UFC o crear su propio luchador personalizado, y competir en diferentes modos de juego y categorías de peso. El juego presenta una jugabilidad realista y un sistema de daño en tiempo real que afecta la apariencia y la capacidad de lucha de los luchadores.
+            </h1>
+    </div>
+    <div>
+        <iframe class="video_fifa"
+         width="560" height="315" src="https://www.youtube.com/embed/L7K6bPFE2HA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+        </iframe>
+    </div>
+    <a href="index.html">
+        <button>
+            Volver al menú
+           </button>
+    </a>
+</div>
+</body>
+</html>
